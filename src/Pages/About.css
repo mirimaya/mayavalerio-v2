@@ -1,0 +1,140 @@
+/*styles the top-chunk of the about-me page*/
+.about1-container, .about2-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 5vh;
+    animation-name: slideup;
+    animation-duration: 1s; 
+}
+
+.about1-title, .about2-title {
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-size: 52px;
+    letter-spacing: -.2px;
+    color: #332A2B;
+}
+
+.about1-paras {
+    width: 50%;
+}
+
+.about1-paras ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.about1-paras ul li {
+    list-style-type: none;
+    color: #332A2B;
+}
+
+/*Styles the "connect with me! links*/
+.about1-chatlinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.clinks {
+    color: #332A2B;
+    text-decoration: none;
+    position: relative;
+}
+.clinks::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -1.5px;
+    left: 0;
+    background-color: #332A2B;
+    transition: width 0.4s ease;
+}
+
+.clinks:hover::after {
+    width: 100%;
+}
+
+/*styles the second-chunk of the about-me page*/
+.about2-paras {
+    width: 60%;
+}
+
+.about2-paras ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about2-paras ul li {
+    list-style-type: none;
+    color: #332A2B;
+}
+
+/*puts a gap between the two about pages*/
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+/*polaroid-styling*/
+figure {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFBFC;
+    padding: 10px 10px 15px 10px;
+    box-shadow: 8px 9px 2.5px #332A2B20;
+    width: 85%;
+    align-items: center;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.me-caption {
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: -.2px;
+    color:#332A2B;
+    margin-top: 10px;
+}
+
+.grad-captions {
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-size: 27px;
+    letter-spacing: -.2px;
+    color:#332A2B;
+    margin-top: 10px;
+}
+
+.about1-polaroid {
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-3.3deg);
+    align-items: center; 
+}
+
+.about2-polaroids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.lmhs-img {
+    transform: translate(0px, 10px) rotate(-2.2deg);
+}
+
+.lssc-img {
+    transform: translate(40px, -10px) rotate(2.2deg);
+}

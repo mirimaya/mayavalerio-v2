@@ -1,0 +1,105 @@
+.projects-container {
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    color: #332A2B;
+    animation-name: slideup;
+    animation-duration: 1s; 
+
+}
+/*Styles the projects section*/
+.project1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    text-align: center;
+}
+.projects1-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.project-imgs {
+    width: 80%;
+}
+.project-info {
+    width: 55vh;
+}
+.project-captions {
+    margin-top: 10px;
+    color: #332A2B;
+}
+.project-tags ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-badges {
+    margin-top: 5px;
+}
+.read-more-btn {
+    margin-top: 5px;
+    background-color: #332A2B;
+    color: #FFF2E9;
+    padding: 5px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    border: 0px solid transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.read-more-btn a {
+    color: #FFF2E9;
+}
+/*Styles each of the components from the experience sections*/
+.projects2-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+.experiences-titles{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.experience-list {
+    width: 95%;
+}
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding-bottom: 5px;
+}
+.badges li {
+    font-size: 13px;
+    list-style-type: none;
+    border: 1.5px solid #332A2B;
+    color: #332A2B;
+    padding: 5px;
+    border-radius: 7px;
+}
+.bullets {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    padding-left: 25px;
+}
+a {
+    text-decoration: none;
+}
+.projects-skills {
+    padding-top: 10px;
+    width: 95%;
+    display: flex;
+    column-gap: 10px;
+    align-items: baseline;
+}

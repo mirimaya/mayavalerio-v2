@@ -1,0 +1,35 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.flinks {
+    color: #332A2B;
+    text-decoration: none;
+    position: relative;
+}
+
+.flinks::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -1.5px;
+    left: 0;
+    background-color: #332A2B;
+    transition: width 0.4s ease;
+}
+
+.flinks:hover::after {
+    width: 100%;
+}

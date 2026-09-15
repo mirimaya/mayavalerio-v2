@@ -1,0 +1,27 @@
+/*Global styling for the webpage*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*set the background image for the site*/
+body {
+  background-image: url(./Images/background.svg);
+  background-size: cover;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  padding: 15px;
+}
+
+/*slide up animations*/
+@keyframes slideup {
+    0% {
+        opacity: 0%;
+        transform: translatey(50px);
+    }
+    100% {
+        opacity: 100%;
+    }
+}
