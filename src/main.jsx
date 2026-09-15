@@ -10,9 +10,7 @@ const router = createBrowserRouter([
   {path: "/", element: <App/>},
   {path: "/about", element: <About/>},
   {path: "/projects", element: <Projects/>}
-], {
-  basename: "/mayavalerio-v2",
-});
+]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
