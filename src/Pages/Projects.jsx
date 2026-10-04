@@ -12,7 +12,7 @@ function Projects() {
                     <div className='project1'>
                         <div>
                             <figure className='project-imgs'>
-                                <img src={Pengoimage} alt='An image of two child mascot characters holding hands with the caption Pengo' loading='lazy' decoding='async'></img>
+                                <img src={Pengoimage} alt='An image of two child mascot characters holding hands with the caption Pengo' decoding='async'></img>
                                 <figcaption className='project-captions'>Figbuild 2026</figcaption>
                             </figure>
                         </div>

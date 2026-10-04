@@ -14,7 +14,7 @@ function About() {
                 <div className='about1-container'>
                     <div className='about1-polaroid'>
                         <figure>
-                            <img src={Mayaimage} alt='An image of myself in a polaroid!' loading='lazy' decoding='async'></img>
+                            <img src={Mayaimage} alt='An image of myself in a polaroid!' decoding='async'></img>
                             <figcaption className='me-caption'>Maya Valerio</figcaption>
                         </figure>
                     </div>
@@ -78,11 +78,11 @@ function About() {
                     </div>
                     <div className='about2-polaroids'>
                         <figure className='lmhs-img'>
-                            <img src={Mayalmhsgrad} alt='An image of myself at my graduation from high school.' loading='lazy' decoding='async'></img>
+                            <img src={Mayalmhsgrad} alt='An image of myself at my graduation from high school.' decoding='async'></img>
                             <figcaption className='grad-captions'>Lake Minneola</figcaption>
                         </figure>
                         <figure className='lssc-img'>
-                            <img src={Mayalsscgrad} alt='An image of myself at my graduation from state college.' loading='lazy' decoding='async'></img>
+                            <img src={Mayalsscgrad} alt='An image of myself at my graduation from state college.' decoding='async'></img>
                             <figcaption className='grad-captions'>Lake-Sumter</figcaption>
                         </figure>
                     </div>
