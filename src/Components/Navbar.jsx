@@ -28,7 +28,7 @@ function Navbar() {
                     <li className='hideOnMobile'><Link to={"/about"} className='nlinks hoverlinks'>About Me</Link></li>
                     <li className='hideOnMobile'><Link to={"/projects"} className='nlinks hoverlinks'>Projects</Link></li>
                     <li className='hideOnMobile'><a href={Mayasresume} className='nlinks hoverlinks' target='_blank' rel='noopener noreferrer'>Resume</a></li>
-                    <li className='menu-btn' onClick={showSidebar}><a href="#" className='nlinks hoverlinks'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#332A2B"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                    <li className='menu-btn' onClick={showSidebar}><a href="#" className='nlinks'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#332A2B"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
                 </ul>
             </nav>           
         </>
