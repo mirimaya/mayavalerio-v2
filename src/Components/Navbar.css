@@ -1,4 +1,70 @@
-.navbar-container {
+/*styling the navbar*/
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    height: 60px;
+}
+.nlinks {
+    height: 100%;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    color:#332A2B;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+}
+nav li:first-child {
+    margin-right: auto;
+}
+
+/*styling the sidebar*/
+.sidebar{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 195, 204, 0.2);
+    box-shadow: -7px 0 7px #332a2b28;
+    backdrop-filter: blur(8px);
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li {
+    width: 100%;
+}
+.sidebar li:first-child {
+    margin-left: auto;
+}
+
+/*media query to handle the sidebar's appearance on mobile*/
+.menu-btn {
+    display: none;
+}
+@media(max-width: 855px) {
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
+}
+@media(max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+/* .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,3 +111,4 @@
     width: 100%;
     left: 0;
 }
+*/
