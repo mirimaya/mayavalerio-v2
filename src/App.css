@@ -1,32 +1,39 @@
-.home-container {
+.app-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100dvh;
+}
+
+.app-content-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 10vw;
+    flex: 1;
     animation-name: slideup;
     animation-duration: 1s; 
-}
-
-.main-text {
-    font-family: 'Sacramento', cursive;
-    font-weight: 400;
-    font-size: 100px;
-    letter-spacing: -.5px;
-    color: #332A2B;
-}
-
-.home-phrase {
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    font-size: 28px;
-    color: #332A2B;
 }
 
 .home-tagline {
     text-align: center;
     list-style-type: none;
-    margin-left: 5vw;
+}
+
+.create-something-text {
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-size: clamp(1.4rem, 4vw - .6rem, 1.7rem);
+    color: #332A2B;
+}
+
+.beautiful-text {
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-size: clamp(5rem, 10vw, 6rem);
+    letter-spacing: -.5px;
+    color: #332A2B;
 }
 
 .projects-btn {
@@ -35,10 +42,10 @@
     font-family: 'Urbanist', sans-serif;
     font-weight: 400;
     letter-spacing: 0.05em;
-    font-size: 18px;
+    font-size: clamp(1rem, 4.8vw - 1.3rem, 1.2rem);
     border: 2px solid transparent;
     border-radius: 7px;
-    padding: 5px;
+    padding: 1.6%;
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -51,7 +58,7 @@
 
 .cat-container {
     width: 42%;
-    height: 42%;
+    height: auto;
 }
 
 .cat-container video {
@@ -60,8 +67,24 @@
     object-fit: fill;
 }
 
-/*responsive design implementation
-@media () {
-        
+footer {
+    margin-top: auto;
 }
-*/
+@media (max-width: 800px) {
+    .cat-container {
+        width: 60%;
+    }
+    .home-tagline {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .app-content-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .cat-container {
+        width: 70%;
+    }    
+}
+
