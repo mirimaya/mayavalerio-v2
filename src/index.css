@@ -25,10 +25,3 @@ body {
         opacity: 100%;
     }
 }
-
-/*response background*/
-@media(max-width: 500) {
-    body {
-        background-size: contain;
-    }
-}
