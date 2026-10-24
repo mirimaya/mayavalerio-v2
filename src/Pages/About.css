@@ -1,22 +1,29 @@
-/*styles the top-chunk of the about-me page*/
-.about1-container, .about2-container {
+.about-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.about1-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 5vw;
     margin-top: 5vh;
     animation-name: slideup;
     animation-duration: 1s; 
 }
 
-.about1-title, .about2-title {
+.about1-title {
     font-family: 'Sacramento', cursive;
     font-weight: 400;
-    font-size: 52px;
+    font-size: 2.4rem;
     letter-spacing: -.2px;
     color: #332A2B;
 }
-
+/*clamp(, , 3.3rem);*/
 .about1-paras {
     width: 50%;
 }
@@ -57,29 +64,6 @@
 
 .clinks:hover::after {
     width: 100%;
-}
-
-/*styles the second-chunk of the about-me page*/
-.about2-paras {
-    width: 60%;
-}
-
-.about2-paras ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.about2-paras ul li {
-    list-style-type: none;
-    color: #332A2B;
-}
-
-/*puts a gap between the two about pages*/
-.about-container {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 60px;
 }
 
 /*polaroid-styling*/
@@ -124,17 +108,13 @@ figure img {
     align-items: center; 
 }
 
-.about2-polaroids {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 20%;
+footer {
+    margin-top: auto;
 }
-
-.lmhs-img {
-    transform: translate(0px, 10px) rotate(-2.2deg);
-}
-
-.lssc-img {
-    transform: translate(40px, -10px) rotate(2.2deg);
+/*responsive design*/
+@media (max-width: 800px) {
+    .about1-paras {
+        width: 75vw;
+        margin-top: 20px;
+    }
 }

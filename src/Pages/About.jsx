@@ -44,49 +44,6 @@ function About() {
                         </ul>
                     </div>
                 </div>
-
-                <div className='about2-container'>
-                    <div className='about2-paras'>
-                        <ul>
-                            <li><p className='about2-title'>My Journey So Far...</p></li>
-                            <li><p>
-                                When I was younger, I had no idea what I wanted to pursue as my career 
-                                in the future. I was always a very creative girl; I loved to make digital 
-                                art & had a lot of fun with video editing—specifically motion graphics. 
-                                Eventually, I had graduated from high school & my state college, but I was 
-                                still unsure as to what my future looked like. I could see my end goal; a 
-                                successful career that would allow me to take care of my cats, but the path of 
-                                how to get there was very fuzzy.
-                            </p></li>
-                            <li><p>
-                                When I was applying for my transfer to UCF, I planned to major in business. 
-                                My mother was not happy with my choice. She knew I was only choosing business 
-                                because I didn't know what else to do. With the help of my mother, we sat down 
-                                together and went through UCF's long list of majors, and I took a leap of faith 
-                                and chose the Digital Media program at UCF Downtown. I ended up falling in love 
-                                with the program &lt;3
-                            </p></li>
-                            <li><p>
-                                During my first year at UCF, I learned that I was passionate about both 
-                                front-end and back-end website development, and I decided to take on a Computer 
-                                Science minor to learn more about computers and further my skills as a programmer.
-                                Currently, I'm in my second year, and I am working to improve my skills in UX/UI 
-                                design, front-end development, and back-end development every day. My goal is to 
-                                be able to create a project that works as beautifully as it looks!
-                            </p></li>
-                        </ul>
-                    </div>
-                    <div className='about2-polaroids'>
-                        <figure className='lmhs-img'>
-                            <img src={Mayalmhsgrad} alt='An image of myself at my graduation from high school.' decoding='async'></img>
-                            <figcaption className='grad-captions'>Lake Minneola</figcaption>
-                        </figure>
-                        <figure className='lssc-img'>
-                            <img src={Mayalsscgrad} alt='An image of myself at my graduation from state college.' decoding='async'></img>
-                            <figcaption className='grad-captions'>Lake-Sumter</figcaption>
-                        </figure>
-                    </div>
-                </div>
             </div>
             <Footer/>
         </>

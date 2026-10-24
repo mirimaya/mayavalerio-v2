@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import './Navbar.css'
 import Mayaslogo from '../Images/navbar-logo.svg'
-import Mayasresume from '../assets/maya-resume-oct2026.pdf'
+import Mayasresume from '../assets/maya-resume-oct26-v3.pdf'
 
 function Navbar() {
     function showSidebar() {
