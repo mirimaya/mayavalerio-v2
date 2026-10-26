@@ -1,4 +1,8 @@
 .projects-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
     margin-top: 5vh;
     margin-left: 10vh;
     margin-right: 10vh;
@@ -10,8 +14,10 @@
 /*Styles the projects section*/
 .project1{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 .projects-title {
     font-family: 'Sacramento', cursive;
@@ -51,55 +57,23 @@
     font-family: 'Urbanist', sans-serif;
     font-weight: 400;
     letter-spacing: 0.05em;
-    border: 0px solid transparent;
+    border: 1.5px solid transparent;
     border-radius: 7px;
     cursor: pointer;
+    a {
+        color: #FFF2E9;
+    }
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.read-more-btn a {
-    color: #FFF2E9;
-}
-/*Styles each of the components from the experience sections*/
-.projects2-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-    align-items: center;
-    margin-top: 20px;
-}
-.experiences-titles{
-    font-size: 18px;
-    padding-bottom: 5px;
-}
-.experience-list {
-    width: 95%;
-}
-.badges {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    padding-bottom: 5px;
-}
-.badges li {
-    font-size: 13px;
-    list-style-type: none;
-    border: 1.5px solid #332A2B;
+.read-more-btn:hover {
+    border-color: #332A2B; 
     color: #332A2B;
-    padding: 5px;
-    border-radius: 7px;
+    background-color: transparent;
+    a {
+        color: #332A2B;
+    }
 }
-.bullets {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2px;
-    padding-left: 25px;
-}
-a {
-    text-decoration: none;
-}
-.projects-skills {
-    padding-top: 10px;
-    width: 95%;
-    display: flex;
-    column-gap: 10px;
-    align-items: baseline;
+
+footer {
+    margin: auto;
 }

@@ -3,20 +3,21 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 15vh;
 }
 
 .about1-container{
+    min-height: 80vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 5vw;
-    margin-top: 5vh;
     animation-name: slideup;
     animation-duration: 1s; 
 }
 
-.about1-title {
+.titles {
     font-family: 'Sacramento', cursive;
     font-weight: 400;
     font-size: 2.4rem;
@@ -26,18 +27,17 @@
 /*clamp(, , 3.3rem);*/
 .about1-paras {
     width: 50%;
+    ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    ul li {
+        list-style-type: none;
+        color: #332A2B;
+    }
 }
 
-.about1-paras ul {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
-
-.about1-paras ul li {
-    list-style-type: none;
-    color: #332A2B;
-}
 
 /*Styles the "connect with me! links*/
 .about1-chatlinks {
@@ -74,6 +74,9 @@ figure {
     padding: 10px 10px 15px 10px;
     box-shadow: 8px 9px 2.5px #332A2B20;
     width: 85%;
+    @media (max-width: 800px) {
+        width: 65%;
+    }
     align-items: center;
 }
 
@@ -92,20 +95,59 @@ figure img {
     margin-top: 10px;
 }
 
-.grad-captions {
-    font-family: 'Sacramento', cursive;
-    font-weight: 400;
-    font-size: 27px;
-    letter-spacing: -.2px;
-    color:#332A2B;
-    margin-top: 10px;
-}
-
 .about1-polaroid {
     display: flex;
     flex-direction: column;
     transform: rotate(-3.3deg);
     align-items: center; 
+}
+
+/*Styles each of the components from the experience sections*/
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+.experiences-titles{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.experience-list {
+    width: 85%;
+}
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding-bottom: 5px;
+}
+.badges li {
+    font-size: 13px;
+    list-style-type: none;
+    border: 1.5px solid #332A2B;
+    color: #332A2B;
+    padding: 5px;
+    border-radius: 7px;
+}
+.bullets {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    padding-left: 25px;
+}
+a {
+    text-decoration: none;
+}
+.projects-skills {
+    padding-top: 10px;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    align-items: baseline;
+    box-sizing: border-box;
 }
 
 footer {
