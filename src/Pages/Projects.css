@@ -3,7 +3,7 @@
     flex-direction: column;
     flex: 1;
     min-height: 100vh;
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-left: 10vh;
     margin-right: 10vh;
     color: #332A2B;
@@ -11,44 +11,54 @@
     animation-duration: 1s; 
 
 }
-/*Styles the projects section*/
-.project1{
+
+.polaroid-cards {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    margin: 20px;
+    align-items: center;
+    gap: 5vw;
 }
-.projects-title {
-    font-family: 'Sacramento', cursive;
-    font-size: 50px;
-    font-weight: 400;
-    letter-spacing: -.1px;
-    text-align: center;
+
+.project {
+    display: flex;
+    align-items: center;
 }
-.projects1-container {
+
+.project-img {
+    width: 20vw;
+
+    figcaption {
+        padding-top: 15px;
+        color: #332A2B;
+    }
+}
+.project-details {
+    width: 20vw;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
-    align-items: center;
+    gap: 10px;
 }
-.project-imgs {
-    width: 80%;
-}
-.project-info {
-    width: 55vh;
-}
-.project-captions {
-    margin-top: 10px;
-    color: #332A2B;
-}
-.project-tags ul {
+
+.project-badges {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+
+    li {
+        font-size: 12px;
+        padding: 5px;
+        border: #332A2B 1.5px solid;
+        border-radius: 7px;
+        list-style-type: none;
+    }
 }
-.project-badges {
-    margin-top: 5px;
+
+.stay-tuned {
+    margin: 8vh;
+    text-align: center;
 }
+
 .read-more-btn {
     margin-top: 5px;
     background-color: #332A2B;
@@ -75,5 +85,5 @@
 }
 
 footer {
-    margin: auto;
+    margin-top: auto;
 }
