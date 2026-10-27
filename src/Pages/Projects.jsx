@@ -40,9 +40,9 @@ function Projects() {
                         <ul className='project-badges'>
                             <li>Designathon Project</li>
                             <li>UX/UI Design</li>
-                            <li>Site Mapping</li>
+                            <li>Accessible Design</li>
                         </ul>
-                        <button className='read-more-btn'><a href='https://www.figma.com/design/eqx8LIX4XakviOkmlTrOlS/Portfolio?node-id=1-2' target='_blank' rel='noopener noreferrer'>View Figma</a></button>
+                        <button className='read-more-btn'><a href='https://www.figma.com/design/eqx8LIX4XakviOkmlTrOlS/Portfolio?node-id=1-2' target='_blank' rel='noopener noreferrer'>Case Study</a></button>
                     </div>
                 </div>
             </div>
