@@ -22,6 +22,7 @@
 
 .project {
     display: flex;
+    justify-content: center;
     align-items: center;
     @media(max-width: 800px) {
         gap: 30px;
@@ -31,7 +32,8 @@
 
 .project-img {
     width: 20vw;
-
+    display: flex;
+    justify-content: center;
     @media(max-width: 800px) {
         width: 60vw;
     }
@@ -47,6 +49,9 @@
     gap: 10px;
     @media(max-width: 800px) {
         width: 80vw;
+    }
+    button {
+        align-self: flex-start;
     }
 }
 
@@ -65,7 +70,7 @@
 }
 
 .stay-tuned {
-    margin: 8vh;
+    margin-top: 8vh;
     text-align: center;
 }
 
