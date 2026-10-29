@@ -34,7 +34,7 @@ function Projects() {
                     <div className='project-img'>
                         <figure>
                             <img src={Portimage} alt='An image of two children mascot characters holding hands with the caption Pengo'></img>
-                            <figcaption>KDI Website</figcaption>
+                            <figcaption>Portfolio Website</figcaption>
                         </figure>
                     </div>
                     <div className='project-details'>
@@ -44,7 +44,10 @@ function Projects() {
                             <li>UX/UI Design</li>
                             <li>Responsive Design</li>
                         </ul>
-                        <button className='read-more-btn'><a href='https://www.figma.com/design/eqx8LIX4XakviOkmlTrOlS/Portfolio?node-id=1-3' target='_blank' rel='noopener noreferrer'>View Figma</a></button>
+                        <div className='project-buttons'>
+                            <button className='read-more-btn'><a href='https://github.com/mirimaya/mayavalerio-v2' target='_blank' rel='noopener noreferrer'>GitHub Repo</a></button>
+                            <button className='read-more-btn'><a href='https://www.figma.com/design/eqx8LIX4XakviOkmlTrOlS/Portfolio?node-id=1-3' target='_blank' rel='noopener noreferrer'>View Figma</a></button>
+                        </div>
                     </div>
                 </div>
 

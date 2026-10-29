@@ -58,7 +58,7 @@
 .project-badges {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
 
     li {
         font-size: 12px;
@@ -72,6 +72,12 @@
 .stay-tuned {
     margin-top: 8vh;
     text-align: center;
+}
+
+.project-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .read-more-btn {
