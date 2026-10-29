@@ -44,8 +44,8 @@
     letter-spacing: 0.05em;
     font-size: clamp(1rem, 4.8vw - 1.3rem, 1.2rem);
     border: 2px solid transparent;
-    border-radius: 7px;
-    padding: 1.6%;
+    border-radius: 9px;
+    padding: 1.8%;
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }

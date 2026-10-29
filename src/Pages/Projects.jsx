@@ -3,6 +3,8 @@ import Navbar from '../Components/Navbar.jsx'
 import Footer from '../Components/Footer.jsx'
 import Pengoimage from '../Images/pengo-img.svg'
 import Kdiimage from '../Images/kdi-website-img.svg'
+import Portimage from '../Images/port-img.svg'
+
 function Projects() {
     return(
         <>
@@ -25,6 +27,24 @@ function Projects() {
                             <li>Site Mapping</li>
                         </ul>
                         <button className='read-more-btn'><a href='https://www.figma.com/design/eqx8LIX4XakviOkmlTrOlS/Portfolio?node-id=1-2' target='_blank' rel='noopener noreferrer'>View Figma</a></button>
+                    </div>
+                </div>
+
+                <div className='project'>
+                    <div className='project-img'>
+                        <figure>
+                            <img src={Portimage} alt='An image of two children mascot characters holding hands with the caption Pengo'></img>
+                            <figcaption>KDI Website</figcaption>
+                        </figure>
+                    </div>
+                    <div className='project-details'>
+                        <p>You're looking at it! Designed in <b>Figma</b>, animated with <b>Figma Motion</b>, and built with <b>React.js</b>. Communicates my skills and experience.</p>
+                        <ul className='project-badges'>
+                            <li>Front-End Development</li>
+                            <li>UX/UI Design</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                        <button className='read-more-btn'><a href='https://www.figma.com/design/eqx8LIX4XakviOkmlTrOlS/Portfolio?node-id=1-3' target='_blank' rel='noopener noreferrer'>View Figma</a></button>
                     </div>
                 </div>
 
